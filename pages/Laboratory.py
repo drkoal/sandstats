@@ -418,7 +418,7 @@ pokemon_ability = []
 pokemon_tera = []
 pokemon_moves = []
 pokemon_ocurrences = []
-if len(all_pokemon_oponent_loose) > 0:
+if len(all_pokemons_from_opponent) > 0:
     for leadkey, leadvalue in all_pokemons_from_opponent.items():
         info_pokemon = leadkey.split(':')
         if pokemon_selected != info_pokemon[0]: continue
