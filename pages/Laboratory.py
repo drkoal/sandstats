@@ -334,7 +334,7 @@ col1, col2 = st.columns(2)
 
 # Best Matchups
 col1.write("")
-col1.header("Oponents Pokemon Win")
+col1.header("Opponents Pokemon Win")
 pokemon_best_mu = []
 perc_ocurrence = []
 perc_win_ocurrence = []
@@ -369,7 +369,7 @@ else:
 
 # Worst Matchups
 col2.write("")
-col2.header("Oponents Pokemon Loose")
+col2.header("Opponents Pokemon Loose")
 pokemon_best_mu = []
 perc_ocurrence = []
 perc_win_ocurrence = []
